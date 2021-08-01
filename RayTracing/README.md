@@ -8,6 +8,6 @@
 ### Screenshots
 
 
-![](/Screenshot_1.png)
+![](https://github.com/shantanu-kakade/CUDA/blob/master/RayTracing/Screenshot_1.png)
 
-![](/Screenshot_2.png)
+![](https://github.com/shantanu-kakade/CUDA/blob/master/RayTracing/Screenshot_2.png)
