@@ -1,0 +1,12 @@
+#version 430
+\n	
+layout(location=0) in vec4 vPosition;
+layout(location=1) in vec2 vTexture0_Coord;
+	
+out vec2 out_texture0_coord;
+uniform mat4 u_mvp_matrix;
+void main(void)
+{
+	gl_Position = u_mvp_matrix * vPosition;
+	out_texture0_coord = vTexture0_Coord;
+}

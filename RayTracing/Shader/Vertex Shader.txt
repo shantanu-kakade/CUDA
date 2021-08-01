@@ -1,0 +1,13 @@
+#version 430
+\n	
+layout(location=0) in vec4 vPos;
+layout(location=1) in vec2 vTex;
+out vec2 outTex;
+
+uniform mat4 u_mvp_matrix;
+
+void main()
+{
+	gl_Position = u_mvp_matrix * vPos;
+	outTex = vTex;
+}
